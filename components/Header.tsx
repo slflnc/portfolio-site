@@ -7,20 +7,19 @@ import Image from "next/image";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
-
-  const headerRef = useRef(null);
+  const headerRef = useRef<HTMLElement>(null);
 
   const closeMenu = () => setIsOpen(false);
 
-
   useEffect(() => {
-    const handleClickOutside = (event) => {
-
-      if (headerRef.current && !headerRef.current.contains(event.target)) {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        headerRef.current &&
+        !headerRef.current.contains(event.target as Node)
+      ) {
         setIsOpen(false);
       }
     };
-
 
     if (isOpen) {
       document.addEventListener("mousedown", handleClickOutside);
@@ -29,7 +28,7 @@ export default function Header() {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [isOpen]); 
+  }, [isOpen]);
 
   return (
     <header
