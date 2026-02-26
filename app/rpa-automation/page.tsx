@@ -48,7 +48,7 @@ export default function RpaAutomation() {
                   poster="/poster1.png"
                   preload="metadata"
                 >
-                  <source src="/RPA.MP4" type="video/mp4" />
+                  <source src="/RPADemo.MP4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
