@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mainblue: #1A3D5F;
+  --color-buttonaccent: #4682B3;
+  --color-projectblue: #0D345F;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; }
+
+
+img, video { max-width: 100%; height: auto; }
+
+
+.container-1440 {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 1rem; 
+}
+
+/* globals.css */
+.section-spacing {
+  @apply mt-24 mb-16;
+}
+
+.section-spacing:first-child {
+  @apply mt-0;
+}
