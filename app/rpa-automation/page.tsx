@@ -110,7 +110,7 @@ export default function RpaAutomation() {
                     <span className="text-buttonaccent mt-0.5">▹</span>
                     <span>
                       <strong>UI/Web Robustness:</strong> Popup detection and
-                      failure handling for "Unattended" capability.
+                      failure handling for &quot;Unattended&quot; capability.
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
@@ -200,7 +200,7 @@ export default function RpaAutomation() {
                 <ul className="list-disc pl-5 space-y-3 text-base">
                   <li>
                     <strong>In-Memory Optimisation:</strong> Instead of the bot
-                    clicking cell-by-cell in Excel, I used the 'Read from Excel'
+                    clicking cell-by-cell in Excel, I used the &apos;Read from Excel&apos;
                     action to pull all 22,000 records into a DataTable variable.
                     This reduced data retrieval time from minutes to seconds and
                     prevented Excel-app crashes.

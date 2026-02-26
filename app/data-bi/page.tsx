@@ -110,10 +110,13 @@ export default function PowerBIProject() {
                 </span>
               </div>
 
-              <img
+              <Image
                 src="/Flow.png"
                 alt="End-to-end data architecture flow"
+                width={1200}
+                height={800}
                 className="w-full h-auto"
+                sizes="(max-width: 768px) 100vw, 50vw"
                 loading="lazy"
               />
             </a>
@@ -240,11 +243,14 @@ export default function PowerBIProject() {
                           View Relationship Model
                         </span>
                       </div>
-                      <img
+                      <Image
                         src="/Power BI Model.png"
                         alt="Power BI Star Schema Model"
                         className="w-full h-auto object-contain"
                         loading="lazy"
+                        width={1200}
+                        height={800}
+                        sizes="(max-width: 768px) 100vw, 50vw"
                       />
                     </a>
                     <p className="text-xs text-center text-gray-500 mt-2 italic">
@@ -291,9 +297,12 @@ export default function PowerBIProject() {
                         </span>
                       </div>
                       <div className="p-4">
-                        <img
+                        <Image
                           src="/DAX Snip.png"
                           alt="Custom DAX Logic Snippet"
+                          width={1200}
+                          height={800}
+                          sizes="(max-width: 768px) 100vw, 50vw"
                           className="w-full h-auto object-contain rounded-sm transition-transform duration-300 group-hover:scale-[1.01]"
                           loading="lazy"
                         />

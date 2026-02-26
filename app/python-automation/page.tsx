@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Link from "next/link";
-import Image from "next/image"; 
+import Image from "next/image";
 
 export const metadata = {
   title: "Dynamic Document Automation | Alfie Lancaster",
@@ -139,11 +139,13 @@ export default function PythonAutomation() {
                     className="bg-gray-50 cursor-zoom-in group-hover:border-mainblue transition-colors"
                     aria-label="View automation logic flowchart in full screen"
                   >
-                    <img
+                    <Image
                       src="/Letter Flow.png"
                       alt="Automation logic flowchart"
+                      width={1200}
+                      height={800}
                       className="w-full h-auto"
-                      loading="lazy"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                     />
                   </a>
                 </div>
@@ -158,8 +160,9 @@ export default function PythonAutomation() {
                 <div className="space-y-4 text-base">
                   <p>
                     <strong>Legacy Limitations:</strong> Standard mail-merge
-                    tools struggled with the "one-to-many" relationship (one
-                    letter containing a table of multiple clients).
+                    tools struggled with the &quot;one-to-many&quot;
+                    relationship (one letter containing a table of multiple
+                    clients).
                   </p>
                   <p>
                     <strong>Time-Intensive:</strong> The monthly process
@@ -169,7 +172,7 @@ export default function PythonAutomation() {
                   <p>
                     <strong>Complex Grouping:</strong> The team had to manually
                     filter and group records for each Recipient, which was
-                    highly prone to "copy-paste" errors.
+                    highly prone to copy-paste errors.
                   </p>
                 </div>
               </section>
@@ -195,8 +198,9 @@ export default function PythonAutomation() {
                   </li>
                   <li>
                     <strong>Versatility:</strong> Reused and adapted the core
-                    logic for multiple communication streams, including "Service
-                    Rates" and "Account Status" letters.
+                    logic for multiple communication streams, including
+                    &quot;Service Rates&quot; and &quot;Account Status&quot;
+                    letters.
                   </li>
                   <li>
                     <strong>Accessibility:</strong> Packaged the solution with a
