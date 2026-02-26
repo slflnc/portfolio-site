@@ -94,10 +94,10 @@ export default function AboutPage() {
               </p>
               <p className="text-lg text-neutral-700 leading-relaxed">
                 In a role governed by strict legal frameworks and fiduciary
-                duties, I saw firsthand how "spreadsheet chaos" could lead to
+                duties, I saw firsthand how spreadsheet chaos could lead to
                 genuine risk. I became the go-to person for navigating messy
                 reports, amending systems, and fixing broken workflows.
-                Eventually, I realised that I didn't just want to patch
+                Eventually, I realised that I didn&apos;t just want to patch
                 redundant processes, I wanted to{" "}
                 <strong>engineer the systems</strong> that made following them
                 effortless.
@@ -126,7 +126,7 @@ export default function AboutPage() {
         <div className="w-full max-w-[1440px] mx-auto px-6 md:px-12 lg:px-20">
           <div className="flex flex-col items-center text-center space-y-8">
             <h2 className="text-4xl font-extrabold text-mainblue tracking-tight max-w-3xl">
-              Turning "Can this be done?" into "It's already automated."
+              Turning &quot;Can this be done?&quot; into &quot;It&apos;s already automated.&quot;
             </h2>
 
             <ul className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left mt-8 w-full">

@@ -290,7 +290,7 @@ export default function PowerBIProject() {
                     >
                       <div className="px-4 py-2 bg-slate-800 border-b border-white/5 flex justify-between items-center">
                         <span className="text-blue-300 text-xs font-mono uppercase tracking-widest">
-                          // Business Logic Engineering
+                          Business Logic Engineering
                         </span>
                         <span className="text-white/40 text-[10px] uppercase font-bold opacity-0 group-hover:opacity-100 transition-opacity">
                           Full Snippet

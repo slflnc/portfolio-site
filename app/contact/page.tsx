@@ -25,7 +25,7 @@ export default function ContactPage() {
                 </h2>
                 <p className="text-lg text-white/80 max-w-xl leading-relaxed">
                   Whether you need to automate a manual bottleneck or architect a 
-                  resilient Power BI reporting system, I'm ready to help you build it.
+                  resilient Power BI reporting system, I&apos;m ready to help you build it.
                 </p>
               </div>
 
