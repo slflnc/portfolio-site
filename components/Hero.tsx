@@ -25,7 +25,7 @@ export default function Hero() {
               Hi, I’m Alfie
             </h1>
             <p className="mt-6 text-xl md:text-2xl font-semibold opacity-90 leading-relaxed max-w-xl">
-              Optimising business intelligence through precision data modeling and end-to-end process automation.
+              Hi, I'm Alfie. I look at complex business problems, figure out how they can be fixed, and find the best way to address user pain points to make operations more efficient.
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
@@ -38,7 +38,7 @@ export default function Hero() {
               </Link>
 
               <a 
-                href="/Alfie_Lancaster_CV.pdf" 
+                href="/Alfie_CV_2.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto text-center bg-white text-mainblue ring-1 ring-black/10 hover:bg-gray-50 hover:-translate-y-1 active:scale-95 font-bold py-4 px-10 shadow-lg transition-all duration-200 text-lg"
