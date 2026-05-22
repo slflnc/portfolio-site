@@ -25,7 +25,7 @@ export default function Hero() {
               Hi, I’m Alfie
             </h1>
             <p className="mt-6 text-xl md:text-2xl font-semibold opacity-90 leading-relaxed max-w-xl">
-              Hi, I'm Alfie. I look at complex business problems, figure out how they can be fixed, and find the best way to address user pain points to make operations more efficient.
+              I look at complex business problems, figure out how they can be fixed, and find the best way to address user pain points to make operations more efficient.
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
