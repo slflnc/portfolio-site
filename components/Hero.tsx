@@ -38,7 +38,7 @@ export default function Hero() {
               </Link>
 
               <a 
-                href="/Alfie_CV_2.pdf" 
+                href="/Alfie_T_Lancaster_CV.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto text-center bg-white text-mainblue ring-1 ring-black/10 hover:bg-gray-50 hover:-translate-y-1 active:scale-95 font-bold py-4 px-10 shadow-lg transition-all duration-200 text-lg"

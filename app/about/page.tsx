@@ -31,7 +31,7 @@ const pivotItems = [
   {
     title: "The Strategic Return",
     description:
-      "Returned to Adult Social Care as a Finance Systems Officer, tasked with innovating workflows and automating high-volume migrations at scale.",
+      "Returned to Adult Social Care as a Systems Development Officer, tasked with innovating workflows and automating high-volume migrations at scale.",
   },
   {
     title: "The Future Focus",

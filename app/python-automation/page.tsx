@@ -265,7 +265,7 @@ export default function PythonAutomation() {
                   <h2 className="text-sm font-bold text-mainblue uppercase tracking-widest mb-6">
                     Final Output Samples (Sanitised)
                   </h2>
-                  <div className="grid grid-cols-2 gap-4 items-stretch">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
                     <a
                       href="/Service Rate Letter.png"
                       target="_blank"
