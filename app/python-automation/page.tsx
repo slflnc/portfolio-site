@@ -265,11 +265,11 @@ export default function PythonAutomation() {
                   <h2 className="text-sm font-bold text-mainblue uppercase tracking-widest mb-6">
                     Final Output Samples (Sanitised)
                   </h2>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
                     <a
                       href="/Service Rate Letter.png"
                       target="_blank"
-                      className="relative cursor-zoom-in shadow-md hover:scale-[1.02] transition-transform block bg-white aspect-[3/4] overflow-hidden border border-gray-200"
+                      className="relative cursor-zoom-in shadow-md hover:scale-[1.02] transition-transform block bg-white w-full aspect-[3/4] overflow-hidden border border-gray-200"
                       aria-label="View Service Rate Letter Sample in full screen"
                     >
                       <Image
@@ -277,13 +277,14 @@ export default function PythonAutomation() {
                         alt="Letter Sample 1"
                         fill
                         className="object-cover object-top"
-                        sizes="(max-width: 768px) 50vw, 33vw"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        priority
                       />
                     </a>
                     <a
                       href="/Account Status Letter.png"
                       target="_blank"
-                      className="relative cursor-zoom-in shadow-md hover:scale-[1.02] transition-transform block bg-white aspect-[3/4] overflow-hidden border border-gray-200"
+                      className="relative cursor-zoom-in shadow-md hover:scale-[1.02] transition-transform block bg-white w-full aspect-[3/4] overflow-hidden border border-gray-200"
                       aria-label="View Account Status Letter Sample in full screen"
                     >
                       <Image
@@ -291,7 +292,7 @@ export default function PythonAutomation() {
                         alt="Letter Sample 2"
                         fill
                         className="object-cover object-top"
-                        sizes="(max-width: 768px) 50vw, 33vw"
+                        sizes="(max-width: 768px) 100vw, 50vw"
                       />
                     </a>
                   </div>
