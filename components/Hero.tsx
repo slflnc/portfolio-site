@@ -10,8 +10,8 @@ export default function Hero() {
     { label: "Python",                  cls: "text-lg  font-medium   px-5 py-2  rotate-2" },
     { label: "Process Automation",      cls: "text-2xl font-semibold px-7 py-3" },
     { label: "Advanced DAX",            cls: "text-xl  font-semibold px-6 py-3  translate-y-1" },
-    { label: "Data Strategy",           cls: "text-lg font-extrabold px-6 py-5 -rotate-1 md:text-2xl md:px-10" },
-    { label: "Business Logic",          cls: "text-xl  font-semibold px-6 py-3  -translate-y-1" },
+    { label: "Business Intelligence",   cls: "text-lg font-extrabold px-6 py-5 -rotate-1 md:text-2xl md:px-10" },
+    { label: "Process Optimisation",          cls: "text-xl  font-semibold px-6 py-3  -translate-y-1" },
   ];
 
   return (
@@ -22,10 +22,10 @@ export default function Hero() {
           
           <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight drop-shadow-lg tracking-tight">
-              Hi, I’m Alfie
+              Hi, I'm Alfie
             </h1>
             <p className="mt-6 text-xl md:text-2xl font-semibold opacity-90 leading-relaxed max-w-xl">
-              I look at complex business problems, figure out how they can be fixed, and find the best way to address user pain points to make operations more efficient.
+              I analyse complex business processes, diagnose operational bottlenecks, and engineer data-driven solutions to scale efficiency and streamline workflows.
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
@@ -38,7 +38,7 @@ export default function Hero() {
               </Link>
 
               <a 
-                href="/Alfie_T_Lancaster_CV.pdf" 
+                href="/AlfieThomas_Lancaster_CV.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto text-center bg-white text-mainblue ring-1 ring-black/10 hover:bg-gray-50 hover:-translate-y-1 active:scale-95 font-bold py-4 px-10 shadow-lg transition-all duration-200 text-lg"
