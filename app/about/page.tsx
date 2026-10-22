@@ -62,7 +62,7 @@ export default function AboutPage() {
               <div className="relative w-[300px] md:w-[370px] aspect-square rounded-sm shadow-[8px_8px_0px_white,16px_16px_0px_rgba(255,255,255,0.2)]">
               
                 <Image
-                  src="/Headshot3.png" 
+                  src="/Alfie_head.jpeg" 
                   alt="Alfie Lancaster"
                   fill
                   sizes="(max-width: 768px) 300px, 370px"
